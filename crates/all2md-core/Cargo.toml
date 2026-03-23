@@ -8,6 +8,6 @@ license.workspace = true
 unword = "0.2"
 docx-rs = "0.4"
 rtf-parser = "0.4"
-pdf_oxide = "0.3"
+pdf-extract = "0.7"
 zip = "2"
 thiserror = "2"
