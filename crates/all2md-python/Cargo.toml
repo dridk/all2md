@@ -1,0 +1,13 @@
+[package]
+name = "all2md-python"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[lib]
+name = "all2md"
+crate-type = ["cdylib"]
+
+[dependencies]
+all2md-core = { path = "../all2md-core" }
+pyo3 = { version = "0.23", features = ["extension-module"] }

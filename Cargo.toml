@@ -1,0 +1,8 @@
+[workspace]
+members = ["crates/all2md-core", "crates/all2md-cli", "crates/all2md-python"]
+resolver = "2"
+
+[workspace.package]
+version = "0.1.0"
+edition = "2021"
+license = "MIT"

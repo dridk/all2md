@@ -1,0 +1,13 @@
+[package]
+name = "all2md-core"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+unword = "0.2"
+docx-rs = "0.4"
+rtf-parser = "0.4"
+pdf_oxide = "0.3"
+zip = "2"
+thiserror = "2"
